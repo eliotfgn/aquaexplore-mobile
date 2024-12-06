@@ -1,14 +1,13 @@
-import { Stack } from "expo-router";
-import { Text, View } from "react-native";
+import { Stack } from 'expo-router';
+import { Text, View } from 'react-native';
 
 export default function Home() {
   return (
     <>
-      <Stack.Screen options={{ title: "Home" }} />
+      <Stack.Screen options={{ title: 'Home' }} />
       <View>
         <Text>Hello world</Text>
       </View>
     </>
   );
 }
-
